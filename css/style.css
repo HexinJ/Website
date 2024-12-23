@@ -11,6 +11,12 @@
 *	Edit this section
 *
 * ======================================================= */
+
+* {
+  margin:0;
+  padding:0;
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -22,12 +28,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: #3d5a80;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #2c98f0;
+    color: #3d5a80;
     outline: none;
     text-decoration: none !important; }
 
@@ -80,7 +86,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #8ecae6;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -155,7 +161,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: #3d5a80;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -178,7 +184,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #3d5a80; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -235,7 +241,6 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -245,6 +250,7 @@ figure {
       position: relative;
       overflow: visible; }
       #colorlib-hero .flexslider .slides li {
+        background-color: #edf2f4;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
@@ -380,6 +386,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
+  background-color: #edf2f4;
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -924,7 +931,7 @@ body.offcanvas {
   .work-menu span a {
     color: #000; }
     .work-menu span a.active {
-      color: #2c98f0; }
+      color: #3d5a80; }
 
 .project {
   background-size: cover;
@@ -1107,11 +1114,11 @@ body.offcanvas {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #2c98f0; }
+        color: #3d5a80; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #2c98f0; }
+        color: #3d5a80; }
 
 #map {
   width: 100%;
