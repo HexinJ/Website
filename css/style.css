@@ -28,12 +28,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #3d5a80;
+  color: #2c98f0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #3d5a80;
+    color: #2c98f0;
     outline: none;
     text-decoration: none !important; }
 
@@ -161,7 +161,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #3d5a80;
+            background-color: #2c98f0;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -184,7 +184,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #3d5a80; }
+          color: #2c98f0; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -257,7 +257,7 @@ figure {
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-      bottom: 20px;
+      top: 20px;
       z-index: 1000;
       left: 20px;
       float: left;
@@ -931,7 +931,7 @@ body.offcanvas {
   .work-menu span a {
     color: #000; }
     .work-menu span a.active {
-      color: #3d5a80; }
+      color: #2c98f0; }
 
 .project {
   background-size: cover;
@@ -963,7 +963,7 @@ body.offcanvas {
         bottom: 20px;
         left: 20px;
         right: 20px; }
-        .project .desc .con .icon span {
+        .project .desc .icon span {
           display: inline;
           padding-right: 5px; }
           .project .desc .con .icon span a {
@@ -978,6 +978,7 @@ body.offcanvas {
           font-size: 16px;
           color: #333333; }
     .project .desc h3 {
+      text-align: center;
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500;
@@ -991,10 +992,27 @@ body.offcanvas {
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
-      margin-bottom: 15px; }
-      .project .desc h3 a {
-        color: #fff; }
+      margin-top: 25px;
+      margin-bottom: 30px; 
+      color: #fff; }
+    .project .desc .con h4 {
+      text-align: center;
+      font-family: "Quicksand", Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+      transition: opacity 0.3s, -webkit-transform 0.3s;
+      -o-transition: transform 0.3s, opacity 0.3s;
+      transition: transform 0.3s, opacity 0.3s;
+      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+      margin-bottom: 15px; 
+      color: #00509d;}
     .project .desc span {
+      text-align: center;
       display: block;
       color: rgba(255, 255, 255, 0.7);
       font-size: 13px;
@@ -1114,11 +1132,11 @@ body.offcanvas {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #3d5a80; }
+        color: #2c98f0; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #3d5a80; }
+        color: #2c98f0; }
 
 #map {
   width: 100%;
