@@ -5,13 +5,6 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
-
 * {
   margin:0;
   padding:0;
@@ -28,12 +21,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: #1d4e89;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #2c98f0;
+    color: #1d4e89;
     outline: none;
     text-decoration: none !important; }
 
@@ -86,7 +79,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #8ecae6;
+  background: #00a8e8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -161,7 +154,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: #1d4e89;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -184,7 +177,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #1d4e89; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -219,7 +212,7 @@ figure {
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #2c98f0; }
+            color: #1d4e89; }
 
 .container-wrap {
   max-width: 1170px;
@@ -250,7 +243,7 @@ figure {
       position: relative;
       overflow: visible; }
       #colorlib-hero .flexslider .slides li {
-        background-color: #edf2f4;
+        background-color: #fafafa;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
@@ -386,7 +379,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  background-color: #edf2f4;
+  background-color: #fafafa;
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -509,6 +502,10 @@ body.offcanvas {
   margin-top: 5px;
   border: 1px solid #e6e6e6 !important; }
 
+.panel-body p {
+  margin-bottom: 0em;
+}
+
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; }
@@ -574,7 +571,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
-    background: #fff;
+    background: #f2f3f7;
     width: 20px;
     height: 20px;
     margin-left: 10px; }
@@ -596,7 +593,7 @@ body.offcanvas {
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent #f2f3f7 transparent transparent;
+  border-color: transparent #e8edf0 transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
